@@ -2,4 +2,7 @@
 Theme name: dev-resaturant
 Aythor -: Bryan, Céline, Kim
 varsion: 0.1
-/*
+*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
