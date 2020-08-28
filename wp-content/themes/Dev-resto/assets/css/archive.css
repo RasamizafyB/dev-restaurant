@@ -1,0 +1,248 @@
+/*
+Theme Name: Dev Restaurant
+Author: Céline De Boeck
+Description: Notre premier thème WordPress 
+Version: 1.0
+*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.bkgImageHeader{	
+	background-image: url('../images/hachureGrises.png'), url('../images/resto1.jpg');
+	background-repeat: no-repeat, no-repeat;
+	background-size: contain, cover;
+	background-position: 0% 102%, center;
+	margin: 0 !important;
+	padding: 0 !important;
+	height: 90vh;
+}
+
+.container-page{
+	width: 75%;
+	margin: auto;
+}
+
+.jumbotronTitle{
+    font-size: 60px;;
+    font-weight: 400;
+    color: white;
+	padding-top: 15%;
+}
+
+.highlightedTitle{
+	text-transform: uppercase;
+    font-size: 100px;
+    font-weight: 600;
+    color: white;
+	margin-bottom: 5%;
+}
+
+.fondjumbotron{
+	color: #FFF;	
+}
+
+.linkCheckMenu{
+	font-size: 16px;
+	font-weight: bold;
+	display: flex;
+	padding-bottom: 15%;
+}
+
+.line{
+	width: 50px;
+	height: 0.5px;
+	border: 1px solid #FFF;
+    background-color: white;
+    margin: 0;
+    margin-top: 1.2%;
+    margin-right: 15px;
+}
+
+.hachureGriseHeader{
+	position: absolute;
+	transform: scaleY(-1);
+	object-position: left bottom;
+}
+
+.navCategory{
+	margin-top: 0;
+	margin-bottom: 5%;
+	font-size: 16px;
+	border: none !important;
+	background: none !important;
+}
+
+.navItemCategory{
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 5%;
+	
+}
+
+.navItemCategory a{
+	color: black;
+	width: auto;
+}
+
+.navItemCategory a::before{
+	content: ' ';
+	display: inline-block;
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+	margin-bottom: 5%;
+	background-image: url('../svg/cutelry.svg');
+}
+
+.item1{
+	padding-left: 0;
+}
+
+#templateCard:nth-child(even){
+	background-color: #FFF;
+	border-radius: 0;
+	border: 0;
+	height: auto;
+	margin-bottom: 5%;
+	position: relative;
+}
+#templateCard:nth-child(even) .img-recipe{
+	width: 55%;
+	
+}
+#templateCard:nth-child(even) .description-recipe{
+	width: 45%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#templateCard:nth-child(odd){
+	background-color: #FFF;
+	border-radius: 0;
+	border: 0;
+	height: auto;
+	margin-bottom: 5%;
+	position: relative;
+}
+#templateCard:nth-child(odd) .img-recipe{
+	width: 55%;
+	margin-left: 45%;
+}
+#templateCard:nth-child(odd) .description-recipe{
+	width: 45%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.body-recipe{
+	padding: 5%;
+}
+
+.imgCategory{
+	width: 15px;
+	margin-right: 7px;
+}
+
+.articleDate{
+	display: flex;
+	justify-content: center;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: grey;
+}
+
+.titleCategoryArticle{
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: .75rem;
+}
+
+.titleCategoryArticle::before{
+	content: ' ';
+	display: inline-block;
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+	margin-right: 1%;
+	margin-bottom: 1%;
+	background-image: url('../svg/cutelry.svg');
+}
+
+.titleCategoryArticle a{
+	color: black;
+}
+
+.titleArticle{
+	font-weight: 600;
+	font-size: 23px;
+	padding-bottom: 1em;
+}
+
+
+.littleDescriptionCard{
+	font-size: 16px;
+	font-weight: 300;
+	color: grey;
+}
+
+#buttonArticleReadMore{
+	margin-top: 10%;
+	text-transform: capitalize;
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 0;
+}
+
+#cardImg{
+	border-radius: 0;
+	height: 450px;
+	object-fit: cover;
+}
+
+.styleAtricleSection{
+	background: url('../images/hachureBlanches.png') no-repeat 0% 100% , #F5F5F5;
+	padding-top: 1%; 
+	padding-bottom: 5%;
+}
+
+.navPagination{
+	padding-top: 2%;
+	padding-bottom: 5%;
+}
+
+.numberPageContent{
+	margin: 5px;
+	font-size: 12px;
+}
+
+.styleItemsPagination{
+	color: #292929;
+	background-color: transparent;
+}
+
+.styleItemsPagination:hover{
+	background-color: #FFF;
+	color: #292929;
+}
+
+.bkgArrow{
+	background-color: transparent;
+	border: 0;
+}
+
+.bkgArrow:hover{
+	background-color: #FFF;
+
+}
+
+
+
+
+
+
+
+
+

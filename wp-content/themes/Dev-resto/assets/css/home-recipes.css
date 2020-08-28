@@ -1,0 +1,82 @@
+/* blog */
+
+.recipes-blog{
+    margin-bottom: 5%;
+  }
+  
+  .title-blog{
+    margin: 10% 0 5% 0;
+  }
+  
+  .card-border{
+    border: none;
+  }
+  
+  .top-card{
+    height: 15rem;
+  }
+  
+  .articles .img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .shortdesc{
+    margin-top: 20%;
+  }
+  
+  /* end blog */
+
+  @media (max-width: 1024px){
+    .recipes-blog{
+      background-color: #F5F5F5;
+      margin: 0;
+      padding: 7% 0 7% 0;
+    }
+    .title-blog{
+      margin-top: 0;
+    }
+    .card-blog{
+      display: flex; 
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .card-border{
+      width: 48% !important;
+    }
+    .top-card{
+      height: 18rem;
+    }
+    .carte-body{
+      padding: 10% 7% 5% 7%;
+    }
+    .shortdesc{
+      margin-top: 10%;
+    }
+}
+
+@media (max-width: 500px){
+    .title-blog{
+      margin: 20% 0 20% 0;
+    }
+    .title-blog h2{
+      font-size: 25px;
+    }
+    .title-blog h1{
+      font-size: 35px;
+      padding-top: 3%;
+    }
+    .articles{
+      width: 100%;
+    }
+    .card-blog{
+      flex-direction: column;
+    }
+    .top-card{
+      height: 20rem;
+    }
+    .card-border{
+      width: 100% !important;
+    }
+}

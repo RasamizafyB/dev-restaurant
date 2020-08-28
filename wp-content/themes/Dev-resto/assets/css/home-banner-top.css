@@ -1,0 +1,105 @@
+/* banner top and header */
+
+.banner-top {
+    position: relative;
+    width: 100%;
+    height: 110vh;
+    color: white;
+  }
+  
+  .slider_text{
+    display: flex;
+  }
+  
+  .title{
+    padding: 6rem 0;
+  }
+  
+  .brunch{
+    display: flex;
+    flex-direction: column;
+    margin: 12% 0 0 2%;
+  }
+  
+  .brunch img{
+    margin-top: -10%;
+  }
+  
+  .brunch .xl{
+   margin-top: -25px;
+   margin-left: -15px;
+  }
+  
+  .container-title{
+    margin-left: 7%;
+  }
+  
+  .container-title h1 {
+    font-size: 100px;
+    font-weight: 600;
+    color: white;
+  }
+  .container-title h2 {
+    font-size: 60px;;
+    font-weight: 400;
+    color: white;
+  }
+  
+  .check-menu{
+    margin-top: 5%;
+  }
+  
+  .check-menu a{
+    color: #FFF;
+    margin: 3% 0 0 1%;
+  }
+  
+  .check-menu img{
+    margin-left: -1%;
+  }
+  
+  /* end banner top and header */
+
+  @media (max-width: 1024px){
+    .container-title{
+      width: 90%;
+      margin: auto;
+    }
+    .banner-top .title{
+      padding-top: 2%;
+    }
+    .banner-top .title h1{
+      font-size: 90px;
+    }
+    .banner-top .title h2{
+      font-size: 55px;
+    }
+    .brunch{
+      display: none !important;
+    }
+}
+
+@media (max-width: 500px){
+    .title-banner{
+      font-size: 20px !important;
+    }
+    .title{
+      padding-top: 10% !important;
+    }
+    .title_text h2{
+      font-size: 27px !important;
+    }
+    .title_text h1{
+      font-size: 40px !important;
+    }
+    .check-menu{
+      margin-left: -4%;
+      font-weight: bold;
+    }
+    .check-menu img{
+      width: 40px;
+    }
+    .check-menu a{
+      font-size: 10px;
+    }
+}

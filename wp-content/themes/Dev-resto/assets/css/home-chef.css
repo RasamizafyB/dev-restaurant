@@ -1,0 +1,163 @@
+/* chef cuisto */
+
+.chef-cuisto{
+    padding-bottom: 7%;
+  }
+  
+  .container-card{
+    margin: auto;
+    width: 75%;
+    height: 100%;
+  }
+  
+  .les-cartes{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    margin: -7% auto 7% auto;
+  }
+  
+  .carte{
+    border: solid 1px rgb(247, 244, 244);
+    box-shadow: -1px 7px 20px -4px rgba(224, 224, 224, 0.75);
+    border-radius: 60px 60px 0 0 !important;
+    width: 32%;
+  }
+  
+  .carte .img{
+    width: 17%;
+    height: auto;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+  }
+  
+  .carte .truc{
+    margin-top: 19%;
+    width: 20%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+  }
+  
+  .title-skill{
+    margin-bottom: 7%;
+  }
+  
+  .cuisto{
+    position: relative;
+  }
+  
+  .img-chef{
+    width: 60%;
+    height: 820px;
+  }
+  
+  .img-chef img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+  
+  .cuisto .info{
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    background-color: white;
+    box-shadow: 7px 9px 18px -11px rgb(161, 161, 161);
+    padding: 5% 3% 3% 8%;
+    width: 41vw;
+  }
+  
+  .info .subtitle{
+    font-weight: 400;
+  }
+  
+  .footer-description-chef .subtitle{
+    margin: 0;
+  }
+  
+  /* end chef cuisto */
+
+  @media (max-width: 1024px){
+     .container-card{
+      width: 100%;
+    }
+    .les-cartes{
+      display: block !important;
+      margin: 10% 0 10% 0;
+    }
+    .carte{
+      width: 50%;
+      flex-direction: unset !important;
+      margin: auto;
+      border: none !important;
+      box-shadow: none;
+    }
+    .carte .img{
+      width: auto;
+      margin: auto 5%;
+    }
+    .truc{
+      width: auto !important;
+      margin: auto 5% !important;
+    }
+    .img-chef, .img-chef img{
+      width: 100%;
+    }
+    .info{
+      position: absolute;
+      left: 2% !important;
+      top: 75% !important;
+      width: 96% !important;
+    }
+}
+@media (max-width: 500px){
+    .les-cartes{
+      margin: 15% 0 15% 0;
+    }
+    .carte{
+      display: block !important;
+      width: 100%;
+      margin-bottom: 5%;
+    }
+    .carte .img{
+      width: 80px;
+      margin: auto;
+    }
+    .carte .truc{
+      width: 100px !important;
+      margin: auto !important;
+    }
+    .carte .carte-body{
+      padding-top: 5%;
+    }
+    .carte .carte-body p{
+      display: none !important;
+    }
+    .info{
+      width: 100% !important;
+      left: 0 !important;
+      top: 100% !important;
+      border-radius: none !important;
+      box-shadow: none !important;
+    }
+    .info h2{
+      font-size: 28px;
+      margin: 0;
+    }
+    .info h1{
+      font-size: 35px;
+      margin: 0;
+    }
+    .info .subtitle{
+      font-size: 12px;
+    }
+    .main-description-chef p{
+      font-size: 12px;
+      line-height: 200%;
+    }
+}
