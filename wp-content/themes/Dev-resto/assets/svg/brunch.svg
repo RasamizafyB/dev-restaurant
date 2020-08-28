@@ -10,7 +10,8 @@
       }
 
       .cls-2 {
-        stroke: #000;
+        fill: #fff;
+        stroke: #fff;
         stroke-width: 2px;
       }
 

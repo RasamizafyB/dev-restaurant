@@ -1,0 +1,224 @@
+/*
+Theme name: dev-resaturant
+Thème URI: http://dev-restaurant.com
+
+Author -: Bryan, Céline, Kim
+version: 0.1
+Requires at least
+*/
+* {
+    margin: 0;
+    line-height: 2.3em;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+h2, h1, a {
+    background-color: transparent;
+}
+label {
+    display: block;
+}
+
+.mid-display{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.container-margin{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title-1 {
+    font-size : 100px;
+    filter: brightness(100%);
+}
+.title-2 {
+    font-size : 60px
+}
+.title-3 {
+    font-size : 46px
+}
+.title-4 {
+    font-size : 42px
+}
+.title-recipe {
+    font-size : 20px;
+}
+.paragraphe {
+    font-size : 16px;
+}
+
+.white {
+    color : #FFF;
+}
+.black {
+    color : #292929;
+}
+.light-gray-background{
+    background-color: #f5f5f5;
+}
+
+.uppercase {
+    text-transform:  uppercase;
+}
+.capitalize {
+    text-transform:  capitalize;
+}
+
+.normal {
+    font-weight : 300;
+}
+.regular {
+    font-weight : 400;
+}
+.medium {
+    font-weight : 500;
+}
+.semi-bold {
+    font-weight : 600;
+}
+.bold {
+    font-weight : 700;
+}
+
+.center {
+    text-align: center;
+}
+.left {
+    text-align: left;
+}
+
+.pos-relative{
+    position: relative;
+}
+.pos-absolute {
+    position: absolute;
+}
+
+.block {
+    display: block;
+}
+.inline{
+    display: inline;
+}
+.inline-block {
+    display: inline-block;
+}
+.inline-flex {
+    display: inline-flex;
+}
+
+.bkgCallToActionWhiteHatche{
+    background-image: url("../images/hachures-blanches.png");
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.bkgCallToActionGreyHatche{
+    background-image: url("../images/hachures-grises.png");
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.bkgCallToActionBlackHatche{
+    background-image: url("../images/hachures-noires.png");
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.background-title{
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background:
+            linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url("../images/resto1.jpg");
+}
+.text-background{
+    padding-top: 10%;
+    padding-left: 15%;
+
+}
+
+.card-background{
+    height: 100%;
+}
+.description-margin{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.description{
+    line-height: 3em;
+}
+.title-card-margin{
+    margin-top: 8%;
+}
+.line-height-title{
+    margin-bottom: 1em;
+}
+.card-background-right{
+    height: 100%;
+}
+.border-right{
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.border-left{
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+
+/*//////////////////////////////////////////////LOCATION//////////////////////////////////////////////////*/
+
+.location-padding{
+    padding-top: 10%;
+    height: 100vh;
+}
+.bottom-map-space{
+    padding-bottom: 2em;
+}
+
+/*///////////////////////////////////////////RESERVATION////////////////////////////////////////////////////*/
+.img-form{
+    width: 60vw;
+    height: 100vh;
+    margin-left: 10%;
+}
+
+.form-div{
+    width: 35%;
+    height: 80%;
+    z-index: 1;
+    top: 12%;
+    right: 8%;
+}
+.form-area{
+    padding-top: 15%;
+}
+
+.width-form{
+    width: 77%;
+    margin-left: 11%;
+}
+.resize{
+    resize: none;
+}
+.transparent-border {
+    border: 1px solid transparent;
+}
+.reserve-btn {
+    background: #292929;
+    color: white;
+    width: 35%;
+    height: 3.2em;
+}

@@ -1,0 +1,91 @@
+/* comment */
+
+.section-barman{
+    color: white;
+    background: #292929;
+    position: relative;
+  }
+  
+  .about{
+    display: flex;
+    margin-top: -2%;
+  }
+  
+  .message-barman{
+    width: 50%;
+    margin-top: 7%
+  }
+  
+  .main-message-barman{
+    margin: 5% 0 5% 0;
+    line-height: 200%;
+  }
+  
+  .name{
+    margin-top: 5%;
+    color: rgb(153, 153, 153);
+  }
+  
+  .img-barman{
+    width: 50%;
+    overflow: hidden;
+  }
+  
+  .business{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .hachures-blaches{
+    width: 100%;
+    position: absolute;
+    top: -1%;
+  }
+  
+  .hachureBlaches{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .icon{
+    padding: 0 1% 0 1%;
+  }
+  
+  /* end comment */
+
+  @media (max-width: 1024px){
+    .about{
+      display: block !important;
+      margin: auto;
+      padding-top: 10%;
+    }
+    .message-barman{
+      margin: 0 auto 10% auto;
+    }
+    .img-barman{
+      margin: auto;
+      width: 100%;
+    }
+    .hachureBlaches{
+      display: none !important;
+    }
+    .hachureGrises{
+      display: block !important;
+      width: 100%;
+      position: absolute;
+      bottom: -1%;
+    }
+}
+@media (max-width: 500px){
+    .message-barman{
+      width: 90%;
+      margin-top: 10%;
+    }
+    .header-message-barman h1{
+      font-size: 25px;
+    }
+    .main-message-barman p{
+      margin-bottom: 10%;
+    }
+}

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.5.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-08-17 04:54:45+0000\n"
+"PO-Revision-Date: 2020-08-26 10:27:12+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -142,7 +142,7 @@ msgstr "Vous pouvez désormais copier des liens dans les écrans des médias et 
 
 #: wp-admin/about.php:152
 msgid "Every release adds improvements to the accessible publishing experience, and that remains true for WordPress 5.5. "
-msgstr "Chaque nouvelle version améliore l’accessibilité de l’expérience de publication, et cela reste vrai pour WordPress 5.5. "
+msgstr "Chaque version améliore l’accessibilité de l’expérience de publication, et cela reste vrai pour WordPress 5.5. "
 
 #: wp-admin/about.php:151
 msgid "Accessibility"
@@ -222,7 +222,7 @@ msgstr "WordPress 5.5 inclut par défaut un plan de site XML qui aide les moteur
 
 #: wp-admin/about.php:78
 msgid "WordPress sites work well with search engines. "
-msgstr "Les sites WordPress sont appréciés par les moteurs de recherche. "
+msgstr "Les sites WordPress fonctionnent bien avec les moteurs de recherche. "
 
 #: wp-admin/about.php:77
 msgid "Say hello to your new sitemap."
@@ -234,7 +234,7 @@ msgstr "Sur mobile, le chargement différé peut également empêcher les naviga
 
 #: wp-admin/about.php:69
 msgid "In WordPress 5.5, images wait to load until they’re just about to scroll into view. The technical term is ‘lazy loading.’"
-msgstr "Sur WordPress 5.5, les images vont attendre d’être dans la zone consultée de l’écran avant de se charger. Techniquement, il s’agit de chargement différé, ou « lazy-load »."
+msgstr "Dans WordPress 5.5, les images attendent d'être chargées jusqu'à ce qu'elles soient sur le point de défiler. Le terme technique est chargement différé ou « lazy loading »."
 
 #: wp-admin/about.php:68
 msgid "Images give your story a lot of impact, but they can sometimes make your site seem slow."
@@ -402,10 +402,10 @@ msgstr "Mettre à jour %s maintenant"
 
 #. translators: 1: Plugin name, 2: Version number.
 #. translators: 1: Theme name, 2: Version number.
-#: wp-admin/includes/class-wp-automatic-updater.php:1060
-#: wp-admin/includes/class-wp-automatic-updater.php:1078
-#: wp-admin/includes/class-wp-automatic-updater.php:1101
-#: wp-admin/includes/class-wp-automatic-updater.php:1119
+#: wp-admin/includes/class-wp-automatic-updater.php:1064
+#: wp-admin/includes/class-wp-automatic-updater.php:1082
+#: wp-admin/includes/class-wp-automatic-updater.php:1105
+#: wp-admin/includes/class-wp-automatic-updater.php:1123
 msgid "- %1$s version %2$s"
 msgstr "- %1$s version %2$s"
 
@@ -603,92 +603,92 @@ msgid "Error: You can&#8217;t reply to a comment on a draft post."
 msgstr "Erreur : vous ne pouvez pas répondre aux commentaires sur une publication en brouillon."
 
 #. translators: %s: Themes screen URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1143
+#: wp-admin/includes/class-wp-automatic-updater.php:1147
 msgid "To manage themes on your site, visit the Themes page: %s"
 msgstr "Pour gérer les thèmes de votre site, visitez la page des thèmes : %s"
 
 #. translators: %s: Plugins screen URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1134
+#: wp-admin/includes/class-wp-automatic-updater.php:1138
 msgid "To manage plugins on your site, visit the Plugins page: %s"
 msgstr "Pour gérer les thèmes de votre site, visitez la page des extensions : %s"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1114
+#: wp-admin/includes/class-wp-automatic-updater.php:1118
 msgid "These themes are now up to date:"
 msgstr "Ces thèmes sont maintenant à jour :"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1096
+#: wp-admin/includes/class-wp-automatic-updater.php:1100
 msgid "These plugins are now up to date:"
 msgstr "Ces extensions sont maintenant à jour :"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1073
+#: wp-admin/includes/class-wp-automatic-updater.php:1077
 msgid "These themes failed to update:"
 msgstr "Ces thèmes n’ont pas été mis à jour :"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1055
+#: wp-admin/includes/class-wp-automatic-updater.php:1059
 msgid "These plugins failed to update:"
 msgstr "Ces extensions n’ont pas été mises à jour :"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1050
+#: wp-admin/includes/class-wp-automatic-updater.php:1054
 msgid "Please check your site now. It’s possible that everything is working. If there are updates available, you should update."
 msgstr "Veuillez maintenant vérifier votre site. Il est possible que tout fonctionne. Si des mises à jour sont disponibles, vous devriez les faire."
 
 #. translators: %s: Home URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1040
+#: wp-admin/includes/class-wp-automatic-updater.php:1044
 msgid "Howdy! Themes failed to update on your site at %s."
 msgstr "Bonjour ! Des mises à jour de thèmes ont échoué sur votre site situé à l’adresse %s."
 
 #. translators: %s: Site title.
-#: wp-admin/includes/class-wp-automatic-updater.php:1037
+#: wp-admin/includes/class-wp-automatic-updater.php:1041
 msgid "[%s] Some themes have failed to update"
 msgstr "[%s] Certaines mises à jour de thèmes ont échoué"
 
 #. translators: %s: Home URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1032
+#: wp-admin/includes/class-wp-automatic-updater.php:1036
 msgid "Howdy! Plugins failed to update on your site at %s."
 msgstr "Bonjour ! Certaines mises à jour d’extensions ont échoué sur votre site situé à l’adresse %s."
 
 #. translators: %s: Site title.
-#: wp-admin/includes/class-wp-automatic-updater.php:1029
+#: wp-admin/includes/class-wp-automatic-updater.php:1033
 msgid "[%s] Some plugins have failed to update"
 msgstr "[%s] Certaines mises à jour d’extensions ont échoué"
 
 #. translators: %s: Home URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1024
+#: wp-admin/includes/class-wp-automatic-updater.php:1028
 msgid "Howdy! Plugins and themes failed to update on your site at %s."
 msgstr "Bonjour ! Certaines mises à jour d’extensions et de thèmes ont échoué sur votre site situé à l’adresse %s."
 
 #. translators: %s: Site title.
-#: wp-admin/includes/class-wp-automatic-updater.php:1021
+#: wp-admin/includes/class-wp-automatic-updater.php:1025
 msgid "[%s] Some plugins and themes have failed to update"
 msgstr "[%s] Certaines mises à jour d’extensions et de thèmes ont échoué"
 
 #. translators: %s: Home URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1011
+#: wp-admin/includes/class-wp-automatic-updater.php:1015
 msgid "Howdy! Some themes have automatically updated to their latest versions on your site at %s. No further action is needed on your part."
 msgstr "Bonjour ! Des thèmes ont été mis à jour automatiquement vers leurs dernières versions sur votre site à l’adresse %s. Vous n’avez rien de plus à faire."
 
 #. translators: %s: Site title.
-#: wp-admin/includes/class-wp-automatic-updater.php:1008
+#: wp-admin/includes/class-wp-automatic-updater.php:1012
 msgid "[%s] Some themes were automatically updated"
 msgstr "[%s] Certains thèmes ont été mis à jour automatiquement"
 
 #. translators: %s: Home URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1003
+#: wp-admin/includes/class-wp-automatic-updater.php:1007
 msgid "Howdy! Some plugins have automatically updated to their latest versions on your site at %s. No further action is needed on your part."
 msgstr "Bonjour ! Des extensions ont été mises à jour automatiquement vers leurs dernières versions sur votre site à l’adresse %s. Vous n’avez rien de plus à faire."
 
 #. translators: %s: Site title.
-#: wp-admin/includes/class-wp-automatic-updater.php:1000
+#: wp-admin/includes/class-wp-automatic-updater.php:1004
 msgid "[%s] Some plugins were automatically updated"
 msgstr "[%s] Certaines extensions ont été mises à jour automatiquement"
 
 #. translators: %s: Home URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:995
+#: wp-admin/includes/class-wp-automatic-updater.php:999
 msgid "Howdy! Some plugins and themes have automatically updated to their latest versions on your site at %s. No further action is needed on your part."
 msgstr "Bonjour ! Des extensions et thèmes ont été mis à jour automatiquement vers leurs dernières versions sur votre site situé à l’adresse %s. Vous n’avez rien de plus à faire."
 
 #. translators: %s: Site title.
-#: wp-admin/includes/class-wp-automatic-updater.php:992
+#: wp-admin/includes/class-wp-automatic-updater.php:996
 msgid "[%s] Some plugins and themes have automatically updated"
 msgstr "[%s] Des extensions et thèmes ont été mis à jour automatiquement"
 
@@ -853,30 +853,30 @@ msgstr "Le thème actuel contient l'erreur suivante : « %s »."
 
 #: wp-admin/includes/class-wp-plugins-list-table.php:1113
 #: wp-admin/themes.php:689 wp-admin/js/updates.js:2834
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:736
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:792
 msgid "Enable auto-updates"
 msgstr "Activer les mises à jour auto"
 
 #: wp-admin/includes/class-wp-plugins-list-table.php:1109
 #: wp-admin/themes.php:685 wp-admin/js/updates.js:2823
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:732
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:788
 msgid "Disable auto-updates"
 msgstr "Désactiver les mises à jour auto"
 
 #: wp-admin/includes/class-wp-plugins-list-table.php:623
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:446
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:489
 msgid "Disable Auto-updates"
 msgstr "Désactiver les mises à jour auto"
 
 #: wp-admin/includes/class-wp-plugins-list-table.php:620
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:442
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:485
 msgid "Enable Auto-updates"
 msgstr "Activer les mises à jour auto"
 
 #. translators: %s: Number of plugins.
 #. translators: %s: Number of themes.
 #: wp-admin/includes/class-wp-plugins-list-table.php:571
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:389
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:432
 msgid "Auto-updates Disabled <span class=\"count\">(%s)</span>"
 msgid_plural "Auto-updates Disabled <span class=\"count\">(%s)</span>"
 msgstr[0] "Mises à jour auto désactivées <span class=\"count\">(%s)</span>"
@@ -885,14 +885,14 @@ msgstr[1] "Mises à jour auto désactivées <span class=\"count\">(%s)</span>"
 #. translators: %s: Number of plugins.
 #. translators: %s: Number of themes.
 #: wp-admin/includes/class-wp-plugins-list-table.php:563
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:381
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:424
 msgid "Auto-updates Enabled <span class=\"count\">(%s)</span>"
 msgid_plural "Auto-updates Enabled <span class=\"count\">(%s)</span>"
 msgstr[0] "Mises à jour auto activées <span class=\"count\">(%s)</span>"
 msgstr[1] "Mises à jour auto activées <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/class-wp-plugins-list-table.php:468
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:293
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:336
 msgid "Automatic Updates"
 msgstr "Mises à jour automatiques"
 
@@ -1025,6 +1025,7 @@ msgstr "Mise à jour auto"
 #: wp-admin/includes/class-wp-debug-data.php:1315
 #: wp-admin/includes/class-wp-plugins-list-table.php:1100
 #: wp-admin/themes.php:680 wp-admin/js/updates.js:2836
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:779
 msgid "Auto-updates disabled"
 msgstr "Mises à jour auto désactivées"
 
@@ -1032,6 +1033,7 @@ msgstr "Mises à jour auto désactivées"
 #: wp-admin/includes/class-wp-debug-data.php:1313
 #: wp-admin/includes/class-wp-plugins-list-table.php:1098
 #: wp-admin/themes.php:682 wp-admin/js/updates.js:2825
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:777
 msgid "Auto-updates enabled"
 msgstr "Mises à jour auto activées"
 
@@ -1332,7 +1334,7 @@ msgstr "<a href=\"https://fr.wordpress.org/support/article/tools-screen/\">Docum
 
 #: wp-admin/options.php:351
 msgid "This page allows direct access to your site settings. You can break things here. Please be cautious!"
-msgstr "Cette page donne un accès direct aux réglages de votre site. Vous pouvez casser des chose ici, donc faites attention !"
+msgstr "Cette page donne un accès direct aux réglages de votre site. Vous pouvez casser des choses ici, donc faites attention !"
 
 #. translators: %s: The option/setting.
 #: wp-admin/options.php:299
@@ -1887,13 +1889,13 @@ msgstr "La valeur, %1$s, a été activée par %2$s ou ajoutée à votre fichier 
 
 #. translators: Background update finished notification email subject. %s: Site
 #. title.
-#: wp-admin/includes/class-wp-automatic-updater.php:1280
+#: wp-admin/includes/class-wp-automatic-updater.php:1284
 msgid "[%s] Background Update Finished"
 msgstr "[%s] Mise à jour en arrière-plan terminée"
 
 #. translators: Background update failed notification email subject. %s: Site
 #. title.
-#: wp-admin/includes/class-wp-automatic-updater.php:1277
+#: wp-admin/includes/class-wp-automatic-updater.php:1281
 msgid "[%s] Background Update Failed"
 msgstr "[%s] Mise à jour en arrière-plan échouée"
 
@@ -2386,7 +2388,7 @@ msgstr "Des communications sécurisées entre serveurs sont nécessaires pour de
 
 #: wp-admin/includes/class-wp-site-health.php:1508
 msgid "Learn more about why you should use HTTPS"
-msgstr "Découvrez pourquoi vous devriez utiliser HTTPS"
+msgstr "Apprenez pourquoi vous devriez utiliser HTTPS"
 
 #. translators: Documentation explaining HTTPS and why it should be used.
 #: wp-admin/includes/class-wp-site-health.php:1507
@@ -3089,7 +3091,7 @@ msgid "Must Use Plugins"
 msgstr "Extensions indispensables"
 
 #: wp-admin/includes/class-wp-debug-data.php:150
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:844
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:904
 msgid "Active Theme"
 msgstr "Thème actif"
 
@@ -3483,7 +3485,7 @@ msgstr "En tant que nouvel utilisateur ou utilisatrice de WordPress, vous devrie
 #. translators: First page content.
 #: wp-admin/includes/upgrade.php:313
 msgid "The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community."
-msgstr "La société 123 Machin Truc a été créée en 1971, et n’a cessé de proposer au public des machins-trucs de qualité depuis lors. Située à Saint-Remy-en-Bouzemont-Saint-Genest-et-Isson, 123 Machin Truc emploie 2 000 personnes, et fabrique toutes sortes de bidules super pour la communauté bouzemontoise."
+msgstr "La société 123 Machin Truc a été créée en 1971, et n’a cessé de proposer au public des machins-trucs de qualité depuis lors. Située à Saint-Remy-en-Bouzemont-Saint-Genest-et-Isson, 123 Machin Truc emploie 2 000 personnes, et fabrique toutes sortes de bidules supers pour la communauté bouzemontoise."
 
 #. translators: First page content.
 #: wp-admin/includes/upgrade.php:308
@@ -3493,7 +3495,7 @@ msgstr "...ou quelque chose comme cela :"
 #. translators: First page content.
 #: wp-admin/includes/upgrade.php:303
 msgid "Hi there! I'm a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin' caught in the rain.)"
-msgstr "Bonjour ! Je suis un mécanicien qui aspire à devenir acteur, et voici mon site. J’habite à Bordeaux, j’ai un super chien baptisé Russell, et j’aime la vodka-ananas (ainsi qu’être surpris par la pluie soudaine lors de longues balades sur la plage au coucher du soleil)."
+msgstr "Bonjour ! Je suis un mécanicien qui aspire à devenir acteur, et voici mon site. J’habite à Bordeaux, j’ai un super chien baptisé Russell, et j’aime la vodka (ainsi qu’être surpris par la pluie soudaine lors de longues balades sur la plage au coucher du soleil)."
 
 #. translators: First page content.
 #: wp-admin/includes/upgrade.php:298
@@ -5102,7 +5104,7 @@ msgstr "Désactiver %s du réseau"
 
 #: wp-admin/user-new.php:238
 msgid "By default, new users will receive an email letting them know they&#8217;ve been added as a user for your site. This email will also contain a password reset link. Uncheck the box if you don&#8217;t want to send the new user a welcome email."
-msgstr "Par défaut, les nouveaux utilisateurs recevront un message leur indiquant leur ajout en tant que membre de votre site. Ce message contiendra également un lien de réinitialisation de leur mot de passe. Décochez la case si vous souhaitez ne pas envoyer de message de bienvenue."
+msgstr "Par défaut, les nouveaux utilisateurs recevront un message leur indiquant leur ajout en tant que membre de votre site. Ce message contiendra également un lien de réinitialisation de leur mot de passe. Décochez la case si vous ne souhaitez pas envoyer de message de bienvenue."
 
 #: wp-admin/user-new.php:236
 msgid "New users are automatically assigned a password, which they can change after logging in. You can view or edit the assigned password by clicking the Show Password button. The username cannot be changed once the user has been added."
@@ -5303,7 +5305,7 @@ msgstr "Cela remplacera le contenu actuel de l’éditeur par la dernière versi
 
 #: wp-admin/includes/template.php:1922
 msgid "Close media attachment panel"
-msgstr "Fermer le panneau des fichiers attachés."
+msgstr "Fermer le panneau des fichiers joints."
 
 #: wp-admin/includes/ms.php:1054
 msgid "Info"
@@ -5515,7 +5517,7 @@ msgstr "Fichier média mis à jour."
 #: wp-admin/includes/update.php:684 wp-admin/includes/update.php:697
 #: wp-admin/update-core.php:403
 msgid "View %1$s version %2$s details"
-msgstr "Afficher les détails de la version %2$s de l’extension ou du thème %1$s"
+msgstr "Voir les détails de la version %2$s de %1$s"
 
 #. translators: 1: Relative date, 2: Time.
 #: wp-admin/includes/dashboard.php:982
@@ -5666,11 +5668,11 @@ msgstr "Aide au recadrage d’image"
 
 #: wp-admin/includes/image-edit.php:129
 msgid "scale height"
-msgstr "Redimensionner en hauteur"
+msgstr "redimensionner en hauteur"
 
 #: wp-admin/includes/image-edit.php:126
 msgid "scale width"
-msgstr "Redimensionner en largeur"
+msgstr "redimensionner en largeur"
 
 #: wp-admin/includes/image-edit.php:124
 msgid "New dimensions:"
@@ -5835,7 +5837,7 @@ msgstr "La hauteur suggérée est de %s."
 #. translators: %s: Size in pixels.
 #: wp-admin/includes/class-custom-image-header.php:585
 msgid "Suggested width is %s."
-msgstr "La taille suggérée est de %s."
+msgstr "La largeur suggérée est de %s."
 
 #. translators: %s: Size in pixels.
 #: wp-admin/includes/class-custom-image-header.php:572
@@ -5985,7 +5987,7 @@ msgstr "Configurer la connexion à votre base de données"
 
 #: wp-admin/setup-config.php:163
 msgid "Before getting started"
-msgstr "Avant de se lancer"
+msgstr "Avant de commencer"
 
 #: wp-admin/maint/repair.php:159
 msgid "WordPress database repair"
@@ -6163,7 +6165,7 @@ msgstr "Avertissement"
 #: wp-admin/includes/network.php:325 wp-admin/includes/network.php:427
 #: wp-admin/includes/network.php:615 wp-admin/includes/network.php:667
 msgid "Warning:"
-msgstr "Attention&nbsp;:"
+msgstr "Attention :"
 
 #: wp-admin/includes/ms.php:983
 msgid "Once you hit &#8220;Confirm Deletion&#8221;, these users will be permanently removed."
@@ -6287,7 +6289,7 @@ msgstr "Filtrer la liste des éléments"
 
 #: wp-admin/includes/class-wp-plugins-list-table.php:821
 msgid "Network Only"
-msgstr "Réseau seul"
+msgstr "Réseau uniquement"
 
 #: wp-admin/includes/class-wp-plugins-list-table.php:817
 msgid "Network Active"
@@ -6381,7 +6383,7 @@ msgstr "Le brouillon de la page a été mis à jour."
 #. translators: %s: Scheduled date for the page.
 #: wp-admin/edit-form-advanced.php:205
 msgid "Page scheduled for: %s."
-msgstr "Page programmée pour le %s."
+msgstr "Page planifiée pour le %s."
 
 #: wp-admin/edit-form-advanced.php:203
 msgid "Page submitted."
@@ -6467,7 +6469,7 @@ msgstr "Vous avez indiqué que cet utilisateur devait être supprimé :"
 #. translators: %s: User's display name.
 #: wp-admin/user-edit.php:696
 msgid "Log %s out of all locations."
-msgstr "Déconnecter %s de tous les supports/appareils."
+msgstr "Déconnecter %s de tous les emplacements."
 
 #: wp-admin/user-edit.php:684
 msgid "Did you lose your phone or leave your account logged in at a public computer? You can log out everywhere else, and stay logged in here."
@@ -6492,7 +6494,7 @@ msgstr "Annuler la modification du mot de passe"
 
 #: wp-admin/user-edit.php:672 wp-admin/user-edit.php:682
 msgid "Log Out Everywhere Else"
-msgstr "Me déconnecter partout ailleurs"
+msgstr "Déconnecter partout ailleurs"
 
 #. translators: The non-breaking space prevents 1Password from thinking the
 #. text "log in" should trigger a password save prompt.
@@ -6819,7 +6821,7 @@ msgctxt "revision date short format"
 msgid "j M @ H:i"
 msgstr "j F \\à G \\h i \\m\\i\\n "
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1261
+#: wp-admin/includes/class-wp-automatic-updater.php:1265
 msgid ""
 "BETA TESTING?\n"
 "=============\n"
@@ -6843,7 +6845,7 @@ msgstr ""
 "\n"
 "Merci ! -- L’équipe WordPress"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1284
+#: wp-admin/includes/class-wp-automatic-updater.php:1288
 msgid ""
 "UPDATE LOG\n"
 "=========="
@@ -7529,36 +7531,36 @@ msgid "This screen shows an individual user all of their sites in this network, 
 msgstr "Cet écran affiche à un utilisateur individuel tous ses sites sur ce réseau, et permet également à cet utilisateur de régler son site principal. Il peut utiliser les liens sous chaque site pour se rendre soit sur son interface publique, soit sur son administration."
 
 #. translators: 1: Error code, 2: Error message.
-#: wp-admin/includes/class-wp-automatic-updater.php:1317
+#: wp-admin/includes/class-wp-automatic-updater.php:1321
 msgid "Error: [%1$s] %2$s"
 msgstr "Erreur : [%1$s] %2$s"
 
 #. translators: 1: Error code, 2: Error message.
-#: wp-admin/includes/class-wp-automatic-updater.php:1314
+#: wp-admin/includes/class-wp-automatic-updater.php:1318
 msgid "Rollback Error: [%1$s] %2$s"
 msgstr "Erreur de restauration : [%1$s] %2$s"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1243
+#: wp-admin/includes/class-wp-automatic-updater.php:1247
 msgid "The following translations failed to update:"
 msgstr "Les traductions suivantes n’ont pas pu être mises à jour :"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1242
+#: wp-admin/includes/class-wp-automatic-updater.php:1246
 msgid "The following themes failed to update:"
 msgstr "Les thèmes suivants n’ont pas pu être mis à jour :"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1241
+#: wp-admin/includes/class-wp-automatic-updater.php:1245
 msgid "The following plugins failed to update:"
 msgstr "Les extensions suivantes n’ont pas pu être mises à jour :"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1229
+#: wp-admin/includes/class-wp-automatic-updater.php:1233
 msgid "The following translations were successfully updated:"
 msgstr "Les traductions suivantes ont bien été mises à jour :"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1228
+#: wp-admin/includes/class-wp-automatic-updater.php:1232
 msgid "The following themes were successfully updated:"
 msgstr "Les thèmes suivants ont bien été mis à jour :"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1227
+#: wp-admin/includes/class-wp-automatic-updater.php:1231
 msgid "The following plugins were successfully updated:"
 msgstr "Les extensions suivantes ont bien été mises à jour :"
 
@@ -7646,27 +7648,27 @@ msgid "Quick Draft"
 msgstr "Brouillon rapide"
 
 #. translators: %s: Name of plugin / theme / translation.
-#: wp-admin/includes/class-wp-automatic-updater.php:1250
+#: wp-admin/includes/class-wp-automatic-updater.php:1254
 msgid "FAILED: %s"
 msgstr "ÉCHEC : %s"
 
 #. translators: %s: Name of plugin / theme / translation.
-#: wp-admin/includes/class-wp-automatic-updater.php:1235
+#: wp-admin/includes/class-wp-automatic-updater.php:1239
 msgid "SUCCESS: %s"
 msgstr "SUCCÈS : %s"
 
 #. translators: %s: WordPress version.
-#: wp-admin/includes/class-wp-automatic-updater.php:1213
+#: wp-admin/includes/class-wp-automatic-updater.php:1217
 msgid "FAILED: WordPress failed to update to %s"
 msgstr "ÉCHEC : WordPress n’a pas pu être mis à jour en %s"
 
 #. translators: %s: WordPress version.
-#: wp-admin/includes/class-wp-automatic-updater.php:1210
+#: wp-admin/includes/class-wp-automatic-updater.php:1214
 msgid "SUCCESS: WordPress was successfully updated to %s"
 msgstr "SUCCÈS : WordPress a bien été mis à jour vers %s"
 
 #. translators: %s: Network home URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1203
+#: wp-admin/includes/class-wp-automatic-updater.php:1207
 msgid "WordPress site: %s"
 msgstr "Site WordPress : %s"
 
@@ -7723,7 +7725,7 @@ msgid "We have some data that describes the error your site encountered."
 msgstr "Nous avons quelques données qui décrivent l’erreur que votre site a rencontré."
 
 #: wp-admin/includes/class-wp-automatic-updater.php:804
-#: wp-admin/includes/class-wp-automatic-updater.php:1152
+#: wp-admin/includes/class-wp-automatic-updater.php:1156
 msgid "The WordPress Team"
 msgstr "L’équipe WordPress"
 
@@ -7732,7 +7734,7 @@ msgid "You also have some plugins or themes with updates available. Update them 
 msgstr "Certains de vos thèmes et extensions ont également des mises à jour disponibles. Veuillez les mettre à jour dès maintenant :"
 
 #: wp-admin/includes/class-wp-automatic-updater.php:785
-#: wp-admin/includes/class-wp-automatic-updater.php:1150
+#: wp-admin/includes/class-wp-automatic-updater.php:1154
 msgid "If you experience any issues or need support, the volunteers in the WordPress.org support forums may be able to help."
 msgstr "Si vous rencontrez des problèmes ou avez besoin d’assistance, les volontaires du forum d’entraide de wpfr.net devraient pouvoir vous aider."
 
@@ -9949,8 +9951,8 @@ msgstr "Tous les utilisateurs"
 #: wp-admin/edit-tag-form.php:278
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:290
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:714
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:436
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:587
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:479
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:630
 #: wp-admin/includes/class-wp-ms-users-list-table.php:115
 #: wp-admin/includes/class-wp-ms-users-list-table.php:514
 msgid "Delete"
@@ -10059,7 +10061,7 @@ msgstr "Utilisateur ajouté."
 #: wp-admin/includes/update.php:231 wp-admin/includes/update.php:271
 #: wp-admin/includes/ajax-actions.php:4442
 #: wp-admin/includes/ajax-actions.php:4485
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:670
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:713
 msgid "Version %s"
 msgstr "Version %s"
 
@@ -10473,8 +10475,8 @@ msgstr "Ce thème enfant hérite de certains modèles de son thème parent, %s."
 
 #: wp-admin/includes/class-theme-installer-skin.php:150
 #: wp-admin/js/updates.js:1280
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:426
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:534
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:469
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:577
 msgid "Network Enable"
 msgstr "Activer sur le réseau"
 
